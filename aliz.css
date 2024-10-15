@@ -1,0 +1,117 @@
+:root {
+    --color-bg: #222;
+    --color-text: #f1f1f1;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  
+  html,
+  body,
+  #container {
+    height: 100%;
+  }
+  
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: monospace;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #main {
+    width: 400px;
+  }
+  .output {
+    background: #444;
+    padding: 1rem;
+    margin-top: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .settings {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #444;
+  }
+  
+  .settings .range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #charlen {
+    color: #19be00;
+    font-size: 1.25rem;
+  }
+  
+  .input-holder {
+    margin-top: 2rem;
+  }
+  
+  .range-input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+  }
+  
+  .range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #19be00;
+    cursor: pointer;
+  }
+  
+  .range-input::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #19be00; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .mybtn {
+    background: #19be00;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border: none;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .strength {
+    background: #111;
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+  
